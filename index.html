@@ -9,10 +9,10 @@
 
   <div class="controls">
     <label for="spacing">間距:</label>
-    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" data-name="testName">
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="20" data-sizing="px" data-name="testName">
 
     <label for="blur">模糊:</label>
-    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+    <input id="blur" type="range" name="blur" min="0" max="25" value="5" data-sizing="px">
 
     <label for="base">邊框顏色</label>
     <input id="base" type="color" name="base" value="#ffc600">
@@ -24,8 +24,8 @@
 
     :root{
 
-      --spacing: 10px;
-      --blur: 10px;
+      --spacing: 20px;
+      --blur: 5px;
       --base: #ffc600;
 
     }
@@ -44,7 +44,7 @@
       color: #504B46;
       font-family: 'helvetica neue', sans-serif;
       font-weight: 100;
-      font-size: 50px;
+      font-size: 2em;
     }
 
     .controls {
